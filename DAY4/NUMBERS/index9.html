@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digit Counter</title>
+</head>
+<body>
+  <h3>Count Number of Digits</h3>
+
+  <input id="num" type="number" placeholder="Enter a number">
+  <button onclick="countDigits()">Count</button>
+  <p id="result"></p>
+
+  <script>
+    function countDigits() {
+      let n = document.getElementById("num").value;
+      let count = n.length;
+
+      document.getElementById("result").innerText = "Number of digits: " + count;
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>JAVASCRIPT METHODS USING JSON DATA</p>
+    <script>
+        let myData = {
+    "data": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "john@gmail.com",
+            "age": 25,
+            "address": {
+                "street": "123 Main St",
+                "city": "New York",
+                "state": "NY"
+            },
+            "phone": "555-1234",
+            "isEmployed": true,
+            "salary": 50000
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "email": "jane.smith@yahoo.com",
+            "age": 30,
+            "address": {
+                "street": "456 Oak Ave",
+                "city": "Los Angeles",
+                "state": "CA"
+            },
+            "phone": "555-5678",
+            "isEmployed": false,
+            "salary": 0
+        },
+        {
+            "id": 3,
+            "name": "Michael Johnson",
+            "email": "mjohnson@gmail.com",
+            "age": 28,
+            "address": {
+                "street": "789 Pine Rd",
+                "city": "Chicago",
+                "state": "IL"
+            },
+            "phone": "555-9101",
+            "isEmployed": true,
+            "salary": 60000
+        },
+        {
+            "id": 4,
+            "name": "Emily Davis",
+            "email": "emily.davis@outlook.com",
+            "age": 22,
+            "address": {
+                "street": "321 Elm St",
+                "city": "Houston",
+                "state": "TX"
+            },
+            "phone": "555-1213",
+            "isEmployed": false,
+            "salary": 0
+        },
+        {
+            "id": 5,
+            "name": "William Brown",
+            "email": "wbrown@hotmail.com",
+            "age": 35,
+            "address": {
+                "street": "654 Cedar Blvd",
+                "city": "Phoenix",
+                "state": "AZ"
+            },
+            "phone": "555-1415",
+            "isEmployed": true,
+            "salary": 70000
+        },
+        {
+            "id": 6,
+            "name": "Olivia Wilson",
+            "email": "olivia.w@gmail.com",
+            "age": 27,
+            "address": {
+                "street": "987 Maple Dr",
+                "city": "Philadelphia",
+                "state": "PA"
+            },
+            "phone": "555-1617",
+            "isEmployed": false,
+            "salary": 0
+        },
+        {
+            "id": 7,
+            "name": "James Taylor",
+            "email": "jtaylor@aol.com",
+            "age": 29,
+            "address": {
+                "street": "741 Spruce Ln",
+                "city": "San Antonio",
+                "state": "TX"
+            },
+            "phone": "555-1819",
+            "isEmployed": true,
+            "salary": 55000
+        },
+        {
+            "id": 8,
+            "name": "Sophia Martinez",
+            "email": "smartinez@gmail.com",
+            "age": 24,
+            "address": {
+                "street": "258 Birch Ct",
+                "city": "San Diego",
+                "state": "CA"
+            },
+            "phone": "555-2021",
+            "isEmployed": false,
+            "salary": 0
+        },
+        {
+            "id": 9,
+            "name": "Liam Anderson",
+            "email": "liam.anderson@live.com",
+            "age": 31,
+            "address": {
+                "street": "369 Walnut Ave",
+                "city": "Dallas",
+                "state": "TX"
+            },
+            "phone": "555-2223",
+            "isEmployed": true,
+            "salary": 65000
+        },
+        {
+            "id": 10,
+            "name": "Isabella Thomas",
+            "email": "isabella.t@hotmail.com",
+            "age": 26,
+            "address": {
+                "street": "147 Redwood St",
+                "city": "San Jose",
+                "state": "CA"
+            },
+            "phone": "555-2425",
+            "isEmployed": false,
+            "salary": 0
+        },
+        {
+            "id": 11,
+            "name": "Benjamin Jackson",
+            "email": "ben.jackson@gmail.com",
+            "age": 32,
+            "address": {
+                "street": "963 Aspen Dr",
+                "city": "Austin",
+                "state": "TX"
+            },
+            "phone": "555-2627",
+            "isEmployed": true,
+            "salary": 72000
+        },
+        {
+            "id": 12,
+            "name": "Mia White",
+            "email": "mia.white@yahoo.com",
+            "age": 23,
+            "address": {
+                "street": "852 Fir St",
+                "city": "Jacksonville",
+                "state": "FL"
+            },
+            "phone": "555-2829",
+            "isEmployed": false,
+            "salary": 0
+        },
+        {
+            "id": 13,
+            "name": "Noah Harris",
+            "email": "noah.harris@protonmail.com",
+            "age": 34,
+            "address": {
+                "street": "369 Cypress Ln",
+                "city": "Fort Worth",
+                "state": "TX"
+            },
+            "phone": "555-3031",
+            "isEmployed": true,
+            "salary": 75000
+        },
+        {
+            "id": 14,
+            "name": "Ava Martin",
+            "email": "ava.martin@gmail.com",
+            "age": 21,
+            "address": {
+                "street": "753 Chestnut Ave",
+                "city": "Columbus",
+                "state": "OH"
+            },
+            "phone": "555-3233",
+            "isEmployed": false,
+            "salary": 0
+        },
+        {
+            "id": 15,
+            "name": "Elijah Thompson",
+            "email": "ethompson@icloud.com",
+            "age": 36,
+            "address": {
+                "street": "147 Hemlock Rd",
+                "city": "Charlotte",
+                "state": "NC"
+            },
+            "phone": "555-3435",
+            "isEmployed": true,
+            "salary": 80000
+        },
+        {
+            "id": 16,
+            "name": "Charlotte Garcia",
+            "email": "cgarcia@hotmail.com",
+            "age": 28,
+            "address": {
+                "street": "951 Juniper Blvd",
+                "city": "San Francisco",
+                "state": "CA"
+            },
+            "phone": "555-3637",
+            "isEmployed": false,
+            "salary": 0
+        }
+    ]
+    
+  }
+  //1.const highestSalaryPerson = myData.data.reduce((max, emp) =>
+  //emp.salary > max.salary ? emp : max
+//);
+
+//console.log("Person with the highest salary:", highestSalaryPerson.salary);
+
+//2.let minSalary = Infinity;
+//let lowestPerson = null;
+
+//myData.data.forEach(emp => {
+  //if (emp.salary < minSalary) {
+    //minSalary = emp.salary;
+    //lowestPerson = emp;
+  //}
+//});
+//console.log("Using forEach:", lowestPerson.name);
+//3.For max salary intialize to "0" and condition use ">"
+
+//4.let minSalary = Infinity;
+
+//myData.data.forEach(emp => {
+  //if (emp.salary < minSalary) {
+    //minSalary = emp.salary;
+  //}
+//});
+
+//const lowestSalaryPeople3 = [];
+//myData.data.forEach(emp => {
+  //if (emp.salary === minSalary) {
+    //lowestSalaryPeople3.push(emp);
+  //}
+//});
+
+//console.log("Using forEach:");
+//lowestSalaryPeople3.forEach(person => console.log(person.name));
+
+//5.const salaries = myData.data.map(emp => emp.salary);
+//const maxSalary = Math.max(...salaries);
+//const minSalary = Math.min(...salaries);
+
+
+//myData.data.forEach(emp => {
+  //if (emp.salary === maxSalary) {
+    //emp.isHighPaid = true;
+  //} else if (emp.salary === minSalary) {
+    //emp.isHighPaid = false;
+  //}
+//});
+
+
+//console.log("Updated employees with isHighPaid:");
+//myData.data.forEach(emp => {
+  //if ('isHighPaid' in emp) {
+    //console.log(`${emp.name} => isHighPaid: ${emp.isHighPaid}`);
+  //}
+//})
+
+//6.let sum = 0;
+//myData.data.forEach(emp => {
+  //sum += emp.salary;
+//});
+//const avgSalary = sum / myData.data.length;
+//console.log("Average Salary :", avgSalary);
+
+//7.let sum = 0;
+//let count = 0;
+//myData.data.forEach(emp => {
+  //if (emp.age < 30) {
+    //sum += emp.salary;
+    //count++;
+  //}
+//});
+//const avgForEach = sum / count;
+//console.log("Average Salary (age > 30) using forEach():", avgForEach);
+
+myData.data.forEach(emp => {
+  if (emp.age >= 21 && emp.age <= 25) {
+    emp.ageGroup = "Young adults";
+  } else if (emp.age >= 26 && emp.age <= 30) {
+    emp.ageGroup = "Early professionals";
+  } else if (emp.age >= 31 && emp.age <= 35) {
+    emp.ageGroup = "Mid-career professionals";
+  } else if (emp.age >= 36) {
+    emp.ageGroup = "Experienced professionals";
+  }
+});
+
+console.log("With Age Group (forEach):", myData.data);
+
+
+
+
+
+    </script>
+</body>
+</html>

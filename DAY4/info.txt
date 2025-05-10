@@ -1,0 +1,99 @@
+Find the sum of all even numbers between 1 and 100.
+
+Find the sum of all odd numbers between 1 and 100.
+
+Check whether a given number is prime or not.
+
+Find the factorial of a given number.
+
+Find the greatest common divisor (GCD) of two numbers.
+
+Find the least common multiple (LCM) of two numbers.
+
+Check if a number is a palindrome.
+
+Find the number of digits in a given number.
+
+Find the sum of the digits of a number.
+
+Reverse a given number.
+
+Check if a number is an Armstrong number.
+
+Print all prime numbers up to N.
+
+Find the Nth Fibonacci number.
+
+Print all factors of a given number.
+
+Find the product of all digits in a number.
+
+Check if two numbers are co-prime.
+
+Find the HCF and LCM using prime factorization.
+
+Find all perfect numbers up to N.
+
+Check if a number is a strong number.
+
+Find the next prime number greater than a given number.
+
+Find the nearest palindrome number to a given number.
+
+Check if a number is a Harshad number (Niven number).
+
+Find the sum of squares of digits of a number.
+
+Find the difference between the sum of even digits and odd digits of a number.
+
+Find all numbers between 1 and 1000 divisible by 7 and 11.
+
+Check if a number is a spy number.
+
+Find the digital root of a number.
+
+Check whether a number is a neon number.
+
+Find the GCD of an array of numbers.
+
+Find the sum of the first N natural numbers.
+
+Find the sum of the first N even numbers.
+
+Find the sum of the first N odd numbers.
+
+Count the number of prime digits in a number.
+
+Find the maximum digit in a number.
+
+Find the minimum digit in a number.
+
+Find the second largest digit in a number.
+
+Find the second smallest digit in a number.
+
+Check whether the given number is a perfect square.
+
+Find the largest prime factor of a given number.
+
+Find all three-digit numbers which are Armstrong numbers.
+
+Find all numbers between 1 and 500 which are divisible by the sum of their digits.
+
+Find the difference between the product and sum of digits of a number.
+
+Generate all Pythagorean triplets up to a given limit.
+
+Find whether a number can be expressed as the sum of two prime numbers.
+
+Find the sum of prime numbers up to N.
+
+Check whether a number is a Kaprekar number.
+
+Find the magic number for a given number.
+
+Find how many trailing zeros are there in the factorial of a number.
+
+Check if a number is a binary palindrome.
+
+Find the smallest number greater than N that is divisible by 2, 3, and 5.

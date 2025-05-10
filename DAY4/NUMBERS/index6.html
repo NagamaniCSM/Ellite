@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GCD Finder</title>
+</head>
+<body>
+  <h3>Find GCD of Two Numbers</h3>
+
+  <input id="num1" type="number" placeholder="Enter first number">
+  <input id="num2" type="number" placeholder="Enter second number">
+  <button onclick="findGCD()">Find GCD</button>
+  <p id="result"></p>
+
+  <script>
+    function findGCD() {
+      let a = document.getElementById("num1").value;
+      let b = document.getElementById("num2").value;
+
+      while (b != 0) {
+        let temp = b;
+        b = a % b;
+        a = temp;
+      }
+
+      document.getElementById("result").innerText = "GCD is " + a;
+    }
+  </script>
+</body>
+</html>

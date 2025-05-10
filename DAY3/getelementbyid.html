@@ -1,0 +1,89 @@
+<p id="myPara">Hello!</p>
+<script>
+  const id = document.getElementById("myPara");
+  console.log(para.textContent); // Output: Hello!
+</script> 
+<div class="note">Note 1</div>
+<div class="note">Note 2</div>
+<script>
+  const notes = document.getElementsByClassName("note");
+  console.log(notes[0].textContent); // Output: Note 1
+</script>
+<p>Para 1</p>
+<p>Para 2</p>
+<script>
+  const paras = document.getElementsByTagName("p");
+  console.log(paras.length); // Output: 2
+</script>
+<div class="box">Box</div>
+<script>
+  const firstBox = document.querySelector(".box");
+  const allBoxes = document.querySelectorAll(".box");
+  console.log(firstBox);       // First matching element
+  console.log(allBoxes.length); // Total number of matches
+</script>
+<div id="demo"><b>Hello</b> World</div>
+<script>
+  const el = document.getElementById("demo");
+  console.log(el.textContent); // Hello World
+  console.log(el.innerText);   // Hello World (may vary with style)
+  console.log(el.innerHTML);   // <b>Hello</b> World
+</script>
+<img id="myImg" src="image.jpg" alt="pic">
+<script>
+  const img = document.getElementById("myImg");
+  console.log(img.getAttribute("src")); // image.jpg
+  img.setAttribute("alt", "New Description");
+</script>
+<p id="para">Hello</p>
+<script>
+  const para = document.getElementById("para");
+  para.style.color = "blue";
+  para.style.fontSize = "20px";
+</script>
+<ul id="list"></ul>
+<script>
+  const li = document.createElement("li");
+  li.textContent = "Item 1";
+  document.getElementById("list").appendChild(li); // Adds item
+
+  // Removing the item
+  document.getElementById("list").removeChild(li);
+</script>
+<button id="btn">Click me</button>
+
+<script>
+  document.getElementById("btn").addEventListener("click", () => {
+    alert("Button clicked!");
+  });
+</script>
+<button id="hoverBtn">Hover me</button>
+<script>
+  const btn = document.getElementById("hoverBtn");
+  btn.addEventListener("click", () => alert("Clicked!"));
+  btn.addEventListener("mouseover", () => console.log("Mouse over"));
+  btn.addEventListener("mouseout", () => console.log("Mouse out"));
+</script>
+<input type="text" id="myInput">
+<script>
+  const input = document.getElementById("myInput");
+  input.addEventListener("keydown", (e) => console.log("Key down:", e.key));
+  input.addEventListener("keyup", (e) => console.log("Key up:", e.key));
+</script>
+<form id="myForm">
+    <input type="text" name="username">
+    <button type="submit">Submit</button>
+  </form>
+  <script>
+    const form = document.getElementById("myForm");
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      alert("Form submitted!");
+    });
+  
+    form.username.addEventListener("input", (e) => {
+      console.log("Input changed to:", e.target.value);
+    });
+  </script>
+  
+  

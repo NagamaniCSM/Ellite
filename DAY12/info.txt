@@ -1,0 +1,23 @@
+PostgresQl - it is server,can create database-> schema -> crete table
+
+-> relational database and norelational database
+-> structured database
+-> Consistent
+-> Best for complex queries & transactions & joins
+
+->DATA TYPES
+      Serial - automatically increment like we write 20 next one is 21
+      UUID - 16 characteres (all characteres are unique)
+      integer
+      varchar- we define the size at the time of declaration and we can't chnage after
+      date
+      boolean
+      float
+      text-use when we dont know size 
+
+->HRMS
+    user
+    employee
+    Holidays
+    leaves
+    payroll

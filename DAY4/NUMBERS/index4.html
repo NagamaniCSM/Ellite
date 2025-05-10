@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Factorial Calculator</title>
+</head>
+<body>
+    <h2>Factorial Calculator</h2>
+    
+    <input type="number" id="number" placeholder="Enter a number">
+    <button onclick="calculateFactorial()">Find Factorial</button>
+    
+    <p id="result"></p>
+
+    <script>
+        function calculateFactorial() {
+            let n = document.getElementById('number').value;
+            let fact = 1;
+            for (let i = 1; i <= n; i++) {
+                fact *= i;
+            }
+            document.getElementById('result').innerText = `Factorial of ${n} is ${fact}`;
+        }
+    </script>
+</body>
+</html>

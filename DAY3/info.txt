@@ -1,0 +1,38 @@
+-> Document object Model
+    -> Selection (it means picking or selecting an element from the webpage)
+        -> getElementById()   //select one element by its id
+        -> getElementsByClassName()  //select many elements by their class name
+        -> getElementsByTagName()  //select many elements by their tag name
+        -> querySelector()         //select the first matching element
+        -> querySelectorAll() //select all matching elements
+    -> Manipulation
+        -> textContent, innerText, innerHTML
+        -> getAttribute(), setAttribute()
+        -> element.style
+        -> createElement(), appendChild(), removeChild()
+    -> Events
+        -> addEventListener
+        -> click, mouseover, mouseout
+        -> keydown, keyup
+        -> submit, change, input
+-> Window Object
+    -> alert(), confirm(), prompt()
+    -> window.innerWidth, innerHeight (viewport size)
+    -> window.location (URL info)
+    -> setTimeout() vs setInterval()
+    -> clearing timers: clearTimeout() / clearInterval()
+    // Document Object Model (DOM)
+-> JS Methods
+    -> for
+    -> find
+    -> some
+    -> every
+    -> filter
+    -> sort
+    -> split 
+    -> join
+    
+
+
+
+

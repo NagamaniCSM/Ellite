@@ -1,0 +1,35 @@
+Data structures : mainly -  1.Sorting:   1.Bubble Sorting
+                                         2.Selection 
+                                         3.Insertion
+                            2.Searching: 1.Linear Searching
+                                         2.Binary 
+                            3.Stacks
+                            4.Queue
+                            5.Linked List
+https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
+
+Detail inforamtion:
+Bubble sort - Bubble Sort is the simplest sorting algorithm that works by 
+              repeatedly swapping the adjacent elements if they are in the wrong order.
+Selection sort - It sorts an array by repeatedly selecting the smallest (or largest) 
+                 element from the unsorted portion and swapping it with the first unsorted element.
+                 This process continues until the entire array is sorted.
+                 1.First we find the smallest element and swap it with the first element. 
+                 This way we get the smallest element at its correct position.
+                 2.Then we find the smallest among remaining elements (or second smallest) and 
+                 swap it with the second element.
+                 3.We keep doing this until we get all elements moved to correct position
+Insertion Sort - Insertion sort is a simple sorting algorithm that works by iteratively inserting 
+                 each element of an unsorted list into its correct position in a sorted portion
+                  of the list
+                  1.We start with the second element of the array as
+                   the first element is assumed to be sorted.
+                  2.Compare the second element with the first element if the
+                   second element is smaller then swap them.
+                  3.Move to the third element, compare it with the first two elements, 
+                  and put it in its correct position
+                  4.Repeat until the entire array is sorted
+Linear Search - It sequentially checks each element of the list until a match is found 
+                or the whole list has been searched.
+Binary Search - Binary Search Algorithm is a searching algorithm used in a sorted array by 
+                repeatedly dividing the search interval in half

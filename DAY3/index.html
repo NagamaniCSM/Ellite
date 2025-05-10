@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="CLICK ME">
+    <div id="viewportSize"></div>
+   <style>
+    input:hover{
+        background-color: blue;
+        cursor:pointer;
+    }
+   </style>
+   <button id="hoverBtn">Hover me</button>
+   <script>
+     const btn = document.getElementById("hoverBtn");
+     btn.addEventListener("click", () => alert("Clicked!"));
+     btn.addEventListener("mouseover", () => console.log("Mouse over"));
+     btn.addEventListener("mouseout", () => console.log("Mouse out"));
+   </script>
+    <script>
+    //const id = document.getElementById("id");
+    //console.log(title.textContent);
+    //const para = document.getElementsByClassName("para");
+    //console.log(para.length);
+    //const p = document.getElementsByTagName("p");
+    //console.log(p[0].textContent);
+    //const p = document.querySelector("p");
+    //console.log(p.length);
+    //alert("Hello World");
+    //let result = confirm("Are you sure?");
+    //console.log(result);
+   // let name = prompt("What is your name?");
+   // console.log("Name");
+   //document.getElementById('viewportSize').innerText = "Width: " + window.innerWidth + "px", "Height: "+ window.innerHeight + "px";
+    </script>
+</body>
+</html>
